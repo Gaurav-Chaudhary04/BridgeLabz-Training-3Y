@@ -19,6 +19,7 @@ public class SumNaturalNumbers {
 
         if (n <= 0) {
             System.out.println("Not a natural number!");
+            sc.close();
             return;
         }
 
@@ -28,5 +29,6 @@ public class SumNaturalNumbers {
         System.out.println("Sum using recursion = " + recursive);
         System.out.println("Sum using formula = " + formula);
         System.out.println("Both are equal? " + (recursive == formula));
+        sc.close();
     }
 }

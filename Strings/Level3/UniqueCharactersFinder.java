@@ -47,5 +47,6 @@ public class UniqueCharactersFinder {
         System.out.println("Unique characters:");
         for(char c : unique) System.out.print(c + " ");
         System.out.println();
+        sc.close();
     }
 }

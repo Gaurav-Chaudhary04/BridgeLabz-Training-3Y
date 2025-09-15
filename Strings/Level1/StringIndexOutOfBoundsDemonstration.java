@@ -25,5 +25,6 @@ public class StringIndexOutOfBoundsDemonstration {
 
         // generateException(text); // Uncomment to see exception
         handleException(text);
+        sc.close();
     }
 }

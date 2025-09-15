@@ -45,5 +45,6 @@ public class VowelConsonantCharType {
 
         String[][] charTypes = getCharTypes(text);
         displayCharTypes(charTypes);
+        sc.close();
     }
 }

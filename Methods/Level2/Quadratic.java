@@ -24,5 +24,6 @@ public class Quadratic {
         else {
             for (double r : roots) System.out.println("Root: " + r);
         }
+        sc.close();
     }
 }

@@ -7,6 +7,7 @@ public class FactorialRecursion {
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
         System.out.println("Factorial of " + n + " = " + factorial(n));
+        sc.close();
     }
 
     static long factorial(int n) {

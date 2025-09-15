@@ -15,5 +15,6 @@ public class SumNatural {
         int n = sc.nextInt();
 
         System.out.println("Sum of first " + n + " natural numbers: " + findSum(n));
+        sc.close();
     }
 }

@@ -39,5 +39,6 @@ public class StringSubstringCharAt {
         System.out.println("Substring using charAt(): " + substringByCharAt);
         System.out.println("Substring using built-in substring(): " + substringBuiltIn);
         System.out.println("Are both substrings equal? " + isEqual);
+        sc.close();
     }
 }

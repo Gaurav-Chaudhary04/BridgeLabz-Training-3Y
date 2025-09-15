@@ -16,5 +16,6 @@ public class TriangleArea {
         double areaInch2 = areaCm2 / (2.54 * 2.54);
 
         System.out.println("The Area of the triangle in sq in is " + areaInch2 + " and sq cm is " + areaCm2);
+        input.close();
     }
 }

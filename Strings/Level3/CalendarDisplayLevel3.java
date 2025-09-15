@@ -52,5 +52,6 @@ public class CalendarDisplayLevel3 {
         int year = sc.nextInt();
 
         displayCalendar(month, year);
+        sc.close();
     }
 }

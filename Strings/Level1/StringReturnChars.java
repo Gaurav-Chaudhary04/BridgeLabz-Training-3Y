@@ -41,5 +41,6 @@ public class StringReturnChars {
         System.out.println();
 
         System.out.println("Are both character arrays equal? " + equal);
+        sc.close();
     }
 }

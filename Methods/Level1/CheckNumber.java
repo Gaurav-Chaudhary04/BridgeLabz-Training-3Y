@@ -17,5 +17,6 @@ public class CheckNumber {
         if (result == 1) System.out.println("Positive");
         else if (result == -1) System.out.println("Negative");
         else System.out.println("Zero");
+        sc.close();
     }
 }

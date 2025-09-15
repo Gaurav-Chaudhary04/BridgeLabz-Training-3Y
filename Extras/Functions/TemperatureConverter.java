@@ -16,6 +16,7 @@ public class TemperatureConverter {
         } else {
             System.out.println("Invalid choice.");
         }
+        sc.close();
     }
 
     static double fahrenheitToCelsius(double f) {

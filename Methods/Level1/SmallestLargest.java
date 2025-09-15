@@ -16,5 +16,6 @@ public class SmallestLargest {
 
         int[] result = findSmallestAndLargest(a, b, c);
         System.out.println("Smallest: " + result[0] + ", Largest: " + result[1]);
+        sc.close();
     }
 }

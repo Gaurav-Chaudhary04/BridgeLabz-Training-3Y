@@ -16,5 +16,6 @@ public class Chocolates {
 
         int[] result = distributeChocolates(chocolates, children);
         System.out.println("Each child gets " + result[0] + " chocolates, Remaining: " + result[1]);
+        sc.close();
     }
 }

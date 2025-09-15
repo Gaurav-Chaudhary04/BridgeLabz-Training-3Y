@@ -10,6 +10,7 @@ public class BasicCalculator {
         double b = sc.nextDouble();
         System.out.print("Choose operation (+, -, *, /): ");
         char op = sc.next().charAt(0);
+        sc.close();
 
         double result = 0;
         switch (op) {

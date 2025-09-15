@@ -16,5 +16,6 @@ public class SpringSeason {
 
         if (isSpring(month, day)) System.out.println("It’s a Spring Season");
         else System.out.println("Not a Spring Season");
+        sc.close();
     }
 }

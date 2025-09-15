@@ -36,5 +36,6 @@ public class FriendsAgeHeight {
 
         System.out.println("Youngest = " + names[youngest(ages)]);
         System.out.println("Tallest = " + names[tallest(heights)]);
+        sc.close();
     }
 }

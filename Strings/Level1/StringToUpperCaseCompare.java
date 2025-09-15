@@ -40,5 +40,6 @@ public class StringToUpperCaseCompare {
         System.out.println("Manual toUpperCase: " + upperManual);
         System.out.println("Built-in toUpperCase: " + upperBuiltIn);
         System.out.println("Are both equal? " + equals);
+        sc.close();
     }
 }

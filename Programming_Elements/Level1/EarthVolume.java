@@ -17,5 +17,6 @@ public class EarthVolume {
 
         System.out.println("The volume of earth in cubic kilometers is " + volumeKm3 +
                            " and cubic miles is " + volumeMiles3);
+        input.close();
     }
 }

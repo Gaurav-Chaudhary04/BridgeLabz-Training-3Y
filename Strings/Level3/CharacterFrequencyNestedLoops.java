@@ -45,5 +45,6 @@ public class CharacterFrequencyNestedLoops {
         for(String[] pair : freq) {
             System.out.println(pair[0] + "		" + pair[1]);
         }
+        sc.close();
     }
 }

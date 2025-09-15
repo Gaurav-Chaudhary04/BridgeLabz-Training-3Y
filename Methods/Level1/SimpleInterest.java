@@ -19,5 +19,6 @@ public class SimpleInterest {
         double si = calculateSI(p, r, t);
         System.out.println("The Simple Interest is " + si + 
                            " for Principal " + p + ", Rate of Interest " + r + " and Time " + t);
+        sc.close();
     }
 }

@@ -40,5 +40,6 @@ public class StringToLowerCaseCompare {
         System.out.println("Manual toLowerCase: " + lowerManual);
         System.out.println("Built-in toLowerCase: " + lowerBuiltIn);
         System.out.println("Are both equal? " + equals);
+        sc.close();
     }
 }

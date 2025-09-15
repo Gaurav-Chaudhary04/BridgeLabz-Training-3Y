@@ -73,5 +73,6 @@ public class StringSplitWithoutSplitMethod {
         for(String w : wordsBuiltIn) System.out.println(w);
 
         System.out.println("Are both splits equal? " + equal);
+        sc.close();
     }
 }

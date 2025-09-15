@@ -43,5 +43,6 @@ public class StudentVotingEligibility {
         String[][] eligibility = votingEligibility(ages);
 
         displayEligibility(eligibility);
+        sc.close();
     }
 }

@@ -20,5 +20,6 @@ public class AthleteRun {
 
         double rounds = calculateRounds(a, b, c);
         System.out.println("The athlete must complete " + Math.ceil(rounds) + " rounds.");
+        sc.close();
     }
 }

@@ -17,5 +17,6 @@ public class Trigonometry {
         System.out.println("Sine: " + result[0]);
         System.out.println("Cosine: " + result[1]);
         System.out.println("Tangent: " + result[2]);
+        sc.close();
     }
 }

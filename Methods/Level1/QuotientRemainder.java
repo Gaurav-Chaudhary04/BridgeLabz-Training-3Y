@@ -16,5 +16,6 @@ public class QuotientRemainder {
 
         int[] result = findRemainderAndQuotient(num, div);
         System.out.println("Remainder: " + result[0] + ", Quotient: " + result[1]);
+        sc.close();
     }
 }

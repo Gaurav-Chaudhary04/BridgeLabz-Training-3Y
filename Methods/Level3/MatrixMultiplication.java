@@ -20,6 +20,7 @@ public class MatrixMultiplication {
         // Matrix multiplication condition
         if (c1 != r2) {
             System.out.println("Matrix multiplication not possible (c1 != r2).");
+            sc.close();
             return;
         }
 
@@ -61,7 +62,6 @@ public class MatrixMultiplication {
             }
             System.out.println();
         }
-
         sc.close();
     }
 }

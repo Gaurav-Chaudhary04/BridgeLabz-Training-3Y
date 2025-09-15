@@ -26,5 +26,6 @@ public class AnagramChecker {
         String text2 = sc.nextLine();
 
         System.out.println("Are anagrams? " + areAnagrams(text1, text2));
+        sc.close();
     }
 }

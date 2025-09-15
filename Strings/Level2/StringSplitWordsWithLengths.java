@@ -60,5 +60,6 @@ public class StringSplitWordsWithLengths {
         for(int i=0; i<wordsLen.length; i++) {
             System.out.println(wordsLen[i][0] + "	" + Integer.parseInt(wordsLen[i][1]));
         }
+        sc.close();
     }
 }

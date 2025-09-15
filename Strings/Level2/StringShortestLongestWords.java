@@ -78,5 +78,6 @@ public class StringShortestLongestWords {
 
         System.out.println("Shortest word: " + wordsLen[result[0]][0] + " with length " + wordsLen[result[0]][1]);
         System.out.println("Longest word: " + wordsLen[result[1]][0] + " with length " + wordsLen[result[1]][1]);
+        sc.close();
     }
 }

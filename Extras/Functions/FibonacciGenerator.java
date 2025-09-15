@@ -7,6 +7,7 @@ public class FibonacciGenerator {
         System.out.print("Enter number of terms: ");
         int n = sc.nextInt();
         generateFibonacci(n);
+        sc.close();
     }
 
     static void generateFibonacci(int n) {

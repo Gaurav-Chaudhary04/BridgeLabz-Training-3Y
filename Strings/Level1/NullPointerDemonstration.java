@@ -21,5 +21,6 @@ public class NullPointerDemonstration {
     public static void main(String[] args) {
         // generateNullPointerException(); // Uncomment to see exception
         handleNullPointerException();
+        
     }
 }

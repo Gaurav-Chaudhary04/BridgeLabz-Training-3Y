@@ -32,5 +32,6 @@ public class NumberCheck {
         if (result == 0) System.out.println("First and last are equal");
         else if (result == 1) System.out.println("First > Last");
         else System.out.println("First < Last");
+        sc.close();
     }
 }

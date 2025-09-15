@@ -34,5 +34,6 @@ public class ArrayIndexOutOfBoundsExceptionDemo {
 
         // generateException(names); // Uncomment to see exception
         handleException(names);
+        sc.close();
     }
 }

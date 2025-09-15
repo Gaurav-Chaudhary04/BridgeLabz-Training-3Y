@@ -49,5 +49,6 @@ public class CharacterFrequencyUsingUnique {
         for(String[] pair : frequency) {
             System.out.println(pair[0] + "		" + pair[1]);
         }
+        sc.close();
     }
 }

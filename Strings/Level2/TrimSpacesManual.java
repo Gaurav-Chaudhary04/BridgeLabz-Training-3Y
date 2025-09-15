@@ -38,6 +38,7 @@ public class TrimSpacesManual {
         int[] indices = trimSpacesIndices(text);
         if(indices[0] > indices[1]) {
             System.out.println("String is empty after trimming");
+            sc.close();
             return;
         }
 
@@ -49,5 +50,6 @@ public class TrimSpacesManual {
         System.out.println("Trimmed using manual method: '" + trimmedManual + "'");
         System.out.println("Trimmed using built-in trim(): '" + trimmedBuiltIn + "'");
         System.out.println("Are both trimmed strings equal? " + equal);
+        sc.close();
     }
 }

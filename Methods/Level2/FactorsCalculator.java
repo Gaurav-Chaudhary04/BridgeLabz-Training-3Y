@@ -45,5 +45,6 @@ public class FactorsCalculator {
         System.out.println("\nSum = " + sum(factors));
         System.out.println("Product = " + product(factors));
         System.out.println("Sum of Squares = " + sumOfSquares(factors));
+        sc.close();
     }
 }

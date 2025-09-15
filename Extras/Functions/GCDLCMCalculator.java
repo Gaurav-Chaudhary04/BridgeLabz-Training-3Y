@@ -12,6 +12,7 @@ public class GCDLCMCalculator {
         int lcm = lcm(a, b, gcd);
         System.out.println("GCD: " + gcd);
         System.out.println("LCM: " + lcm);
+        sc.close();
     }
 
     static int gcd(int a, int b) {

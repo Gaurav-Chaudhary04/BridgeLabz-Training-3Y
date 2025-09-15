@@ -58,5 +58,6 @@ public class StudentMarksGrade {
         double[][] totals = calculateTotals(scores);
         String[] grades = calculateGrades(totals);
         displayScorecard(scores, totals, grades);
+        sc.close();
     }
 }

@@ -45,5 +45,6 @@ public class BodyMassIndexCalculator {
 
         String[][] bmiResults = calculateBMIStatus(heightWeight);
         displayBMIResults(bmiResults);
+        sc.close();
     }
 }

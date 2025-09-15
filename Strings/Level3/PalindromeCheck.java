@@ -38,5 +38,6 @@ public class PalindromeCheck {
         System.out.println("Iterative palindrome check: " + isPalindromeIterative(text));
         System.out.println("Recursive palindrome check: " + isPalindromeRecursive(text, 0, text.length()-1));
         System.out.println("Char array palindrome check: " + isPalindromeArrays(text));
+        sc.close();
     }
 }

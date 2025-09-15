@@ -13,5 +13,6 @@ public class Handshakes {
         int n = sc.nextInt();
 
         System.out.println("Maximum handshakes possible: " + calculateHandshakes(n));
+        sc.close();
     }
 }

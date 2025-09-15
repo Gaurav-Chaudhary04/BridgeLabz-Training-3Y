@@ -73,5 +73,6 @@ public class DeckOfCardsDistribution {
         } else {
             printPlayersCards(players);
         }
+        sc.close();
     }
 }

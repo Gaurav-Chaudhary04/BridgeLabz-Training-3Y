@@ -25,5 +25,6 @@ public class StringCompareCharAt {
 
         System.out.println("Comparison using charAt(): " + resultCharAt);
         System.out.println("Comparison using equals(): " + resultEquals);
+        sc.close();
     }
 }

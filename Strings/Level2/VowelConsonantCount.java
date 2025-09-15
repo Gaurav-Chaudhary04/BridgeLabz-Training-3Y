@@ -40,5 +40,6 @@ public class VowelConsonantCount {
         int[] counts = countVowelsConsonants(text);
         System.out.println("Number of vowels: " + counts[0]);
         System.out.println("Number of consonants: " + counts[1]);
+        sc.close();
     }
 }

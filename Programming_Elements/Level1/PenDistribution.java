@@ -17,5 +17,6 @@ public class PenDistribution {
 
         System.out.println("The Pen Per Student is " + pensPerStudent + 
                            " and the remaining pen not distributed is " + remaining);
+        input.close();
     }
 }

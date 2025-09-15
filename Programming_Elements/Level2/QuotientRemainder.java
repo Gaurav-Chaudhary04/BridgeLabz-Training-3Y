@@ -17,5 +17,6 @@ public class QuotientRemainder {
 
         System.out.println("The Quotient is " + quotient + " and Remainder is " + remainder +
                            " of two numbers " + number1 + " and " + number2);
+        input.close();
     }
 }

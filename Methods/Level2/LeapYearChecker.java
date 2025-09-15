@@ -15,5 +15,6 @@ public class LeapYearChecker {
 
         if (isLeapYear(year)) System.out.println(year + " is a Leap Year");
         else System.out.println(year + " is NOT a Leap Year");
+        sc.close();
     }
 }

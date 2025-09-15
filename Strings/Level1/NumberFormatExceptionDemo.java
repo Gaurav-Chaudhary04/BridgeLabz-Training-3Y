@@ -29,5 +29,6 @@ public class NumberFormatExceptionDemo {
 
         // generateException(input); // Uncomment to see exception
         handleException(input);
+        sc.close();
     }
 }

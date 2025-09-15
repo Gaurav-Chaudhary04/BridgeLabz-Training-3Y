@@ -71,5 +71,6 @@ public class RockPaperScissorsGame {
 
         String[][] stats = calculateWinStats(winners, n);
         displayResults(winners, stats);
+        sc.close();
     }
 }

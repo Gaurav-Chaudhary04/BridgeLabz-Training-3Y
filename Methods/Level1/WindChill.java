@@ -15,5 +15,6 @@ public class WindChill {
         double wind = sc.nextDouble();
 
         System.out.println("Wind chill temperature: " + calculateWindChill(temp, wind));
+        sc.close();
     }
 }

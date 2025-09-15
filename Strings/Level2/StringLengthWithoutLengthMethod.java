@@ -28,5 +28,6 @@ public class StringLengthWithoutLengthMethod {
 
         System.out.println("Length without using length(): " + lengthManual);
         System.out.println("Length using built-in length(): " + lengthBuiltIn);
+        sc.close();
     }
 }

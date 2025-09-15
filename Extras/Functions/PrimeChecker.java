@@ -8,6 +8,7 @@ public class PrimeChecker {
         int num = sc.nextInt();
         if (isPrime(num)) System.out.println(num + " is a prime number.");
         else System.out.println(num + " is not a prime number.");
+        sc.close();
     }
 
     static boolean isPrime(int n) {

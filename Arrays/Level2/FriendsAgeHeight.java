@@ -15,6 +15,7 @@ public class FriendsAgeHeight {
             System.out.print("Enter height of " + names[i] + " in cm: ");
             height[i] = sc.nextInt();
         }
+        sc.close();
 
         int minAge = age[0], youngestIndex = 0;
         int maxHeight = height[0], tallestIndex = 0;

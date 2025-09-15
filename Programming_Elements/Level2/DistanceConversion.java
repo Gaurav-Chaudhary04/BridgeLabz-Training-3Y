@@ -13,5 +13,6 @@ public class DistanceConversion {
         double miles = yards / 1760.0;
 
         System.out.println("The distance in yards is " + yards + " while the distance in miles is " + miles);
+        input.close();
     }
 }

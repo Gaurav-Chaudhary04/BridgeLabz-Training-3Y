@@ -22,5 +22,6 @@ public class DoubleOpt {
 
         System.out.println("The results of Double Operations are " + result1 + ", " + result2 + 
                            ", " + result3 + ", and " + result4);
+        input.close();
     }
 }
