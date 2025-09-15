@@ -1,3 +1,5 @@
+package Extras.Strings;
+
 public class LongestWord {
     public static void main(String[] args) {
         String sentence = "Java is an amazing programming language";

@@ -1,3 +1,5 @@
+package Extras.Strings;
+
 import java.util.Scanner;
 
 public class CountVowelsConsonants {

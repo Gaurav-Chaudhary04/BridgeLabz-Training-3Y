@@ -1,3 +1,5 @@
+package Arrays.Level1;
+
 public class Table6to9 {
     public static void main(String[] args) {
         int[][] results = new int[4][10];

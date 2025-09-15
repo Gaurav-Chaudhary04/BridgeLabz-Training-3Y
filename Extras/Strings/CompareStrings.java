@@ -1,3 +1,5 @@
+package Extras.Strings;
+
 public class CompareStrings {
     public static void main(String[] args) {
         String str1 = "apple";

@@ -1,3 +1,7 @@
+package Methods.Level2;
+
+import java.util.Scanner;
+
 public class RandomArrayStats {
     public static int[] generate4DigitRandomArray(int size) {
         int[] arr = new int[size];

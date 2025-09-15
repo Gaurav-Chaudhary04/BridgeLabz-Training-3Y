@@ -1,5 +1,6 @@
-import java.util.Arrays;
-import java.util.Scanner;
+package Arrays.Level1;
+
+import java.util.*;
 
 public class Factors {
     public static void main(String[] args) {

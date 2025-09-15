@@ -1,3 +1,5 @@
+package ControlFlows.Level3;
+
 import java.util.Scanner;
 
 public class BMI_Calculator {

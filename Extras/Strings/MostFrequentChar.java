@@ -1,3 +1,5 @@
+package Extras.Strings;
+
 public class MostFrequentChar {
     public static void main(String[] args) {
         String str = "success";

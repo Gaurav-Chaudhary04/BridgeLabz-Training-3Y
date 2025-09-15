@@ -1,3 +1,5 @@
+package ControlFlows.Level3;
+
 public class DayOfWeek {
     public static void main(String[] args) {
         if (args.length != 3) {

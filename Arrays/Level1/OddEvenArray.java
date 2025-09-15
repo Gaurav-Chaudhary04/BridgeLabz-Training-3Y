@@ -1,3 +1,5 @@
+package Arrays.Level1;
+
 import java.util.Scanner;
 
 public class OddEvenArray {
@@ -8,6 +10,7 @@ public class OddEvenArray {
 
         if (number <= 0) {
             System.out.println("Invalid input. Not a natural number.");
+            sc.close();
             return;
         }
 
@@ -26,5 +29,7 @@ public class OddEvenArray {
         for (int i = 0; i < oIndex; i++) System.out.print(odds[i] + " ");
         System.out.print("\nEven numbers: ");
         for (int i = 0; i < eIndex; i++) System.out.print(evens[i] + " ");
+
+        sc.close();
     }
 }

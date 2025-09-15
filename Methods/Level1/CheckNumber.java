@@ -1,5 +1,6 @@
-import java.util.Scanner;
+package Methods.Level1;
 
+import java.util.Scanner;
 public class CheckNumber {
     public static int checkNumber(int n) {
         if (n > 0) return 1;

@@ -1,3 +1,5 @@
+package Arrays.Level2;
+
 import java.util.Scanner;
 
 public class EmployeeBonus {
@@ -14,6 +16,7 @@ public class EmployeeBonus {
             double sal = sc.nextDouble();
             System.out.print("Enter years of service: ");
             double yrs = sc.nextDouble();
+            sc.close();
 
             if (sal <= 0 || yrs < 0) {
                 System.out.println("Invalid entry. Enter again.");

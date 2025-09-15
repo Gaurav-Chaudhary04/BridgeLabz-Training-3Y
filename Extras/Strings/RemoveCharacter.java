@@ -1,3 +1,5 @@
+package Extras.Strings;
+
 public class RemoveCharacter {
     public static void main(String[] args) {
         String str = "Hello World";

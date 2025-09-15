@@ -1,3 +1,4 @@
+package Extras.Strings;
 import java.util.Arrays;
 
 public class AnagramCheck {

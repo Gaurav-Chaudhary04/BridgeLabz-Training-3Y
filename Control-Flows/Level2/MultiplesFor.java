@@ -1,5 +1,6 @@
-import java.util.Scanner;
+package ControlFlows.Level2;
 
+import java.util.Scanner;
 public class MultiplesFor {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

@@ -1,3 +1,5 @@
+package Extras.Strings;
+
 public class ToggleCase {
     public static void main(String[] args) {
         String str = "Hello World";

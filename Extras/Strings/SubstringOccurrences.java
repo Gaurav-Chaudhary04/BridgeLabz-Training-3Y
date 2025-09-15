@@ -1,3 +1,5 @@
+package Extras.Strings;
+
 public class SubstringOccurrences {
     public static void main(String[] args) {
         String str = "abababa";

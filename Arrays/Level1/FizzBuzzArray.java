@@ -1,3 +1,5 @@
+package Arrays.Level1;
+
 import java.util.Scanner;
 
 public class FizzBuzzArray {
@@ -8,6 +10,7 @@ public class FizzBuzzArray {
 
         if (number <= 0) {
             System.out.println("Invalid input.");
+            sc.close();
             return;
         }
 

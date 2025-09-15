@@ -1,3 +1,5 @@
+package Arrays.Level2;
+
 import java.util.Scanner;
 
 public class BMICalculator {
@@ -29,5 +31,6 @@ public class BMICalculator {
         for (int i = 0; i < n; i++) {
             System.out.println(height[i] + " | " + weight[i] + " | " + bmi[i] + " | " + status[i]);
         }
+        sc.close();
     }
 }

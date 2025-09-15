@@ -1,3 +1,5 @@
+package Arrays.Level2;
+
 import java.util.Scanner;
 
 public class StudentGrades2 {
