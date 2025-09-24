@@ -1,0 +1,20 @@
+@startuml
+class Bank {
+  - name : String
+  - accounts : List<Account>
+  + openAccount(customer, accNo, init)
+}
+class Customer {
+  - name : String
+  - id : String
+  - accounts : List<Account>
+}
+class Account {
+  - accNo : String
+  - balance : double
+  + deposit(d)
+  + withdraw(d)
+}
+Bank "1" o-- "*" Account
+Customer "1" -- "*" Account
+@enduml

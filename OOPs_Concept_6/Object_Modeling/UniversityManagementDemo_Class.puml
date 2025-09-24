@@ -1,0 +1,26 @@
+@startuml
+class Student {
+  - id : String
+  - name : String
+  - courses : List<Course>
+  + enrollCourse(c:Course)
+  + dropCourse(c:Course)
+}
+class Professor {
+  - id : String
+  - name : String
+  - courses : List<Course>
+  + assignCourse(c:Course)
+}
+class Course {
+  - code : String
+  - title : String
+  - professor : Professor
+  - students : List<Student>
+  + setProfessor(p:Professor)
+  + addStudent(s:Student)
+}
+Student "*" -- "*" Course : enrolls
+Professor "1" -- "*" Course : teaches
+Course "1" o-- "1" Professor : has
+@enduml

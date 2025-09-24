@@ -1,0 +1,28 @@
+@startuml
+class Customer {
+  - id : String
+  - name : String
+  + createOrder() : Order
+}
+class Order {
+  - orderId : String
+  - customer : Customer
+  - items : List<OrderItem>
+  - total : double
+  + addItem(product,qty)
+  + getTotal() : double
+}
+class OrderItem {
+  - product : Product
+  - quantity : int
+  - lineTotal : double
+}
+class Product {
+  - id : String
+  - name : String
+  - price : double
+}
+Customer "1" -- "*" Order
+Order "1" o-- "*" OrderItem
+OrderItem --> Product
+@enduml

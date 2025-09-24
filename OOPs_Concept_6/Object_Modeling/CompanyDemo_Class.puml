@@ -1,0 +1,19 @@
+@startuml
+class Company {
+  - name : String
+  - departments : List<Department>
+  + createDepartment(name)
+  + closeCompany()
+}
+class Department {
+  - name : String
+  - employees : List<Employee>
+  + addEmployee(e)
+}
+class Employee {
+  - id : String
+  - name : String
+}
+Company "1" *-- "*" Department
+Department "1" *-- "*" Employee
+@enduml

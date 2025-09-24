@@ -1,0 +1,22 @@
+@startuml
+class University {
+  - name : String
+  - departments : List<Department>
+  + createDepartment(code,title)
+  + closeUniversity()
+}
+class Department {
+  - code : String
+  - title : String
+  - staff : List<String>
+  - faculties : List<Faculty>
+  + addFaculty(f:Faculty)
+  + addStaffMember(name:String)
+}
+class Faculty {
+  - id : String
+  - name : String
+}
+University "1" *-- "*" Department
+Department "1" o-- "*" Faculty
+@enduml

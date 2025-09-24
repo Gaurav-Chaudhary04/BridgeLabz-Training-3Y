@@ -1,0 +1,24 @@
+@startuml
+class School {
+  - name : String
+  - students : List<Student>
+  + addStudent(s:Student)
+  + removeStudent(s:Student)
+}
+class Student {
+  - id : String
+  - name : String
+  - courses : List<Course>
+  + enrollCourse(c:Course)
+  + dropCourse(c:Course)
+}
+class Course {
+  - code : String
+  - title : String
+  - enrolled : List<Student>
+  + addStudent(s:Student)
+  + removeStudent(s:Student)
+}
+School "1" o-- "*" Student
+Student "*" -- "*" Course : enrolls
+@enduml

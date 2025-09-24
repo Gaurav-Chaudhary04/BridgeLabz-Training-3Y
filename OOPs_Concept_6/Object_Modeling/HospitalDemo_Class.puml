@@ -1,0 +1,31 @@
+@startuml
+class Hospital {
+  - name : String
+  - doctors : List<Doctor>
+  - patients : List<Patient>
+  + addDoctor(d:Doctor)
+  + registerPatient(p:Patient)
+}
+class Doctor {
+  - id : String
+  - name : String
+  - issued : List<Prescription>
+  + consult(p:Patient, complaint:String) : Prescription
+}
+class Patient {
+  - id : String
+  - name : String
+  - history : List<Prescription>
+  + addHistory(p:Prescription)
+}
+class Prescription {
+  - presId : String
+  - doctor : Doctor
+  - patient : Patient
+  - medicines : List<String>
+}
+Hospital "1" o-- "*" Doctor
+Hospital "1" o-- "*" Patient
+Doctor "1" o-- "*" Prescription
+Patient "1" o-- "*" Prescription
+@enduml
