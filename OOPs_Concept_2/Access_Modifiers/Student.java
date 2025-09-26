@@ -1,4 +1,4 @@
-package OOPs_Concept_2.Access_Modifiers;
+package OOPS_Concept_2.Access_Modifiers;
 
 public class Student {
     public int rollNumber;

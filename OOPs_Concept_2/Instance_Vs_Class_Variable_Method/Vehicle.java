@@ -1,4 +1,4 @@
-package OOPs_Concept_2.Instance_Vs_Class_Variable_Method;
+package OOPS_Concept_2.Instance_Vs_Class_Variable_Method;
 
 public class Vehicle {
     String ownerName;

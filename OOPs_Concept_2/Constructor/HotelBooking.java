@@ -1,4 +1,4 @@
-package OOPs_Concept_2.Constructor;
+package OOPS_Concept_2.Constructor;
 
 // Problem: HotelBooking system with multiple constructors
 public class HotelBooking {

@@ -1,4 +1,4 @@
-package OOPs_Concept_1.Level_2;
+package OOPS_Concept_1.Level_2;
 
 public class CartItem {
     private String itemName;

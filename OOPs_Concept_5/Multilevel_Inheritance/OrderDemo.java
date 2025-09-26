@@ -1,4 +1,4 @@
-package OOPs_Concept_5.Multilevel_Inheritance;
+package OOPS_Concept_5.Multilevel_Inheritance;
 
 // Multilevel Inheritance: Online Retail Order Management
 class Order {

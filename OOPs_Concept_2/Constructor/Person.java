@@ -1,4 +1,4 @@
-package OOPs_Concept_2.Constructor;
+package OOPS_Concept_2.Constructor;
 
 // Problem: Person class with a copy constructor
 public class Person {

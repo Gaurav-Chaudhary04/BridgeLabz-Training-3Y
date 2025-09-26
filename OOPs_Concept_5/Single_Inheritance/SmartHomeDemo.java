@@ -1,4 +1,4 @@
-package OOPs_Concept_5.Single_Inheritance;
+package OOPS_Concept_5.Single_Inheritance;
 
 // Single Inheritance: Smart Home Devices (Device -> Thermostat)
 class Device {

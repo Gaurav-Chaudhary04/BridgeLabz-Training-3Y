@@ -1,4 +1,4 @@
-package OOPs_Concept_4;
+package OOPS_Concept_4;
 
 // Patient.java
 

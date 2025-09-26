@@ -1,4 +1,4 @@
-package OOPs_Concept_2.Constructor;
+package OOPS_Concept_2.Constructor;
 
 // Problem: Book class with default and parameterized constructors
 public class Book {

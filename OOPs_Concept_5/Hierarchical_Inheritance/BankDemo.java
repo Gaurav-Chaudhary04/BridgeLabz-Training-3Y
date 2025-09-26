@@ -1,4 +1,4 @@
-package OOPs_Concept_5.Hierarchical_Inheritance;
+package OOPS_Concept_5.Hierarchical_Inheritance;
 
 // Hierarchical Inheritance: Bank Account Types
 class BankAccount {

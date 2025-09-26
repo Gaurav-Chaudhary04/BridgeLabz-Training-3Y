@@ -1,4 +1,4 @@
-package OOPs_Concept_6.Object_Modeling;
+package OOPS_Concept_6.Object_Modeling;
 
 import java.util.*;
 

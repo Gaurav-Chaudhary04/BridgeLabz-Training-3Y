@@ -1,4 +1,4 @@
-package OOPs_Concept_2.Constructor;
+package OOPS_Concept_2.Constructor;
 
 // Problem: Car Rental System with cost calculation
 public class CarRental {

@@ -1,4 +1,4 @@
-package OOPs_Concept_3;
+package OOPS_Concept_3;
 
 // LibraryManagementSystem.java
 import java.util.*;

@@ -1,4 +1,4 @@
-package OOPs_Concept_5.Introduction;
+package OOPS_Concept_5.Introduction;
 
 // Animal Hierarchy Problem
 class Animal {
